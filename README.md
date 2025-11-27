@@ -1,86 +1,63 @@
-📝 Présentation
+# Présentation
 
-Platform Messenger CRUD est une application web permettant de gérer des utilisateurs et de communiquer via une messagerie intégrée.
-Le système offre toutes les fonctionnalités essentielles d’une plateforme moderne : création de compte, gestion de profil, envoi de messages et opérations CRUD complètes.
+Platform Messenger CRUD est une application web permettant de gérer des utilisateurs et d’envoyer des messages via une messagerie intégrée.  
+Elle offre les fonctionnalités essentielles d’une plateforme complète : création de compte, connexion, gestion de profil, envoi et consultation de messages, ainsi que des opérations CRUD complètes.
 
-L’application a été développée en React pour le frontend et Java (Spring Boot) pour le backend.
+L’application est développée avec **React** (frontend) et **Java Spring Boot** (backend).
 
-✨ Fonctionnalités
-🔐 Gestion des utilisateurs
+---
 
-Création de compte
+# Fonctionnalités
 
-Authentification / Connexion
+## Gestion des utilisateurs
+- Création de compte  
+- Authentification / Connexion  
+- Mise à jour du profil utilisateur  
+- Suppression de compte  
+- Consultation de la liste des utilisateurs  
 
-Mise à jour du profil utilisateur
+## Messagerie intégrée
+- Envoi de messages entre utilisateurs  
+- Consultation des messages envoyés et reçus  
+- Interface simple et intuitive de type mini-messenger  
 
-Suppression de compte
+## CRUD complet
+- CRUD utilisateurs  
+- CRUD messages  
+- API REST structurée  
 
-Affichage de la liste des utilisateurs
+---
 
-💬 Système de messagerie intégré
+# Technologies utilisées
 
-Envoi de messages entre utilisateurs
+### Frontend
+- React.js  
+- JavaScript / JSX  
+- CSS  
 
-Consultation des messages envoyés et reçus
+### Backend
+- Java (Spring Boot)  
+- API REST  
+- JSON  
 
-Interface simple et intuitive type mini-messenger
+---
 
-⚙️ Opérations CRUD complètes
+# Objectif du projet
 
-CRUD utilisateurs
+Ce projet a pour but de démontrer :
+- des compétences en développement **full-stack**,  
+- la création d’une interface moderne en React,  
+- le développement d’APIs REST avec Spring Boot,  
+- l’implémentation d'opérations CRUD complètes,  
+- la mise en place d’une messagerie interne simple et fonctionnelle.  
 
-CRUD messages
+Il peut servir de base à des applications plus avancées (chat en temps réel, plateforme collaborative, etc.).
 
-API REST propre et structurée
+---
 
-🛠️ Technologies utilisées
-Frontend
+# Lancement du projet
 
-React.js (Create React App)
-
-JavaScript / JSX
-
-CSS
-
-Backend
-
-Java (Spring Boot)
-
-API REST
-
-JSON pour les échanges de données
-
-🎯 Objectif du projet
-
-Ce projet a été conçu pour démontrer :
-
-Maîtrise du développement full-stack
-
-Création d’interfaces utilisateurs avec React
-
-Développement backend avec Java / Spring Boot
-
-Gestion des opérations CRUD
-
-Mise en place d’un système de messagerie interne
-
-Structuration propre d'une application web moderne
-
-Il constitue une excellente base pour des plateformes plus avancées (chat en temps réel, réseaux sociaux internes, outils collaboratifs, etc.).
-
-🚀 Lancement du projet
-Frontend
+## Frontend
+```bash
 npm install
 npm start
-
-
-Disponible sur : http://localhost:3000
-
-Backend
-
-Lancer le serveur Spring Boot (port par défaut : 8080)
-
-📎 Statut
-
-Projet pédagogique / démonstration visant à présenter des compétences full-stack (React + Java / Spring Boot).
