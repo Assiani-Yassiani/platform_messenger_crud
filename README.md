@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+📝 Présentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Platform Messenger CRUD est une application web permettant de gérer des utilisateurs et de communiquer via une messagerie intégrée.
+Le système offre toutes les fonctionnalités essentielles d’une plateforme moderne : création de compte, gestion de profil, envoi de messages et opérations CRUD complètes.
 
-## Available Scripts
+L’application a été développée en React pour le frontend et Java (Spring Boot) pour le backend.
 
-In the project directory, you can run:
+✨ Fonctionnalités
+🔐 Gestion des utilisateurs
 
-### `npm start`
+Création de compte
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Authentification / Connexion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mise à jour du profil utilisateur
 
-### `npm test`
+Suppression de compte
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Affichage de la liste des utilisateurs
 
-### `npm run build`
+💬 Système de messagerie intégré
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Envoi de messages entre utilisateurs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Consultation des messages envoyés et reçus
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Interface simple et intuitive type mini-messenger
 
-### `npm run eject`
+⚙️ Opérations CRUD complètes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CRUD utilisateurs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+CRUD messages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+API REST propre et structurée
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠️ Technologies utilisées
+Frontend
 
-## Learn More
+React.js (Create React App)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+JavaScript / JSX
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSS
 
-### Code Splitting
+Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Java (Spring Boot)
 
-### Analyzing the Bundle Size
+API REST
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+JSON pour les échanges de données
 
-### Making a Progressive Web App
+🎯 Objectif du projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ce projet a été conçu pour démontrer :
 
-### Advanced Configuration
+Maîtrise du développement full-stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Création d’interfaces utilisateurs avec React
 
-### Deployment
+Développement backend avec Java / Spring Boot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Gestion des opérations CRUD
 
-### `npm run build` fails to minify
+Mise en place d’un système de messagerie interne
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Structuration propre d'une application web moderne
+
+Il constitue une excellente base pour des plateformes plus avancées (chat en temps réel, réseaux sociaux internes, outils collaboratifs, etc.).
+
+🚀 Lancement du projet
+Frontend
+npm install
+npm start
+
+
+Disponible sur : http://localhost:3000
+
+Backend
+
+Lancer le serveur Spring Boot (port par défaut : 8080)
+
+📎 Statut
+
+Projet pédagogique / démonstration visant à présenter des compétences full-stack (React + Java / Spring Boot).
