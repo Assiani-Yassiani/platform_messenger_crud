@@ -40,20 +40,7 @@ L’application est développée avec **React** (frontend) et **Java Spring Boot
 - API REST  
 - JSON  
 
----
 
-# Objectif du projet
-
-Ce projet a pour but de démontrer :
-- des compétences en développement **full-stack**,  
-- la création d’une interface moderne en React,  
-- le développement d’APIs REST avec Spring Boot,  
-- l’implémentation d'opérations CRUD complètes,  
-- la mise en place d’une messagerie interne simple et fonctionnelle.  
-
-Il peut servir de base à des applications plus avancées (chat en temps réel, plateforme collaborative, etc.).
-
----
 
 # Lancement du projet
 
